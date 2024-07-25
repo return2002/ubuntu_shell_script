@@ -4,7 +4,7 @@
 mkdir -p /etc/alist
 
 # 进入目录
-cd /etc/alist || exit
+cd /etc/alist
 
 # 提示用户输入端口号
 read -p "请输入宿主端口号（格式为宿主机端口:容器端口）: " PORT
