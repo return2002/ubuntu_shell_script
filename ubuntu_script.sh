@@ -34,8 +34,7 @@ install_docker() {
     sudo apt-get update
     sudo apt-get install docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin
 
-    # sudo apt-get update
-    # sudo apt-get install docker-compose-plugin
+    apt-get install docker-compose
 
     echo "Docker Compose installed."
 }
