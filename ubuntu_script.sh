@@ -2,10 +2,19 @@
 
 # Function to enable SSH
 enable_ssh() {
+    # 定义要修改的配置文件路径
+    SSH_CONFIG_FILE="/etc/ssh/sshd_config"
+    # 备份原始配置文件（可选）
+    cp "$SSH_CONFIG_FILE" "$SSH_CONFIG_FILE.bak"
+    # 启用密码认证登录
+    sudo sed -i 's/^#\?PasswordAuthentication\s\+.*/PasswordAuthentication yes/' "$SSH_CONFIG_FILE"
+    # 重启 SSH 服务使配置生效
+    sudo systemctl restart ssh
     sudo systemctl start ssh
     sudo systemctl enable ssh
     sudo ufw allow ssh
     echo "SSH enabled and firewall configured."
+    echo "SSH配置已更新，已启用密码认证登录。"
 }
 
 # Function to install Docker and Docker Compose
