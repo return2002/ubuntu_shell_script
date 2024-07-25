@@ -30,3 +30,8 @@ EOF
 echo "docker-compose.yml 文件已创建，并使用端口号 $PORT"
 
 docker-compose up -d
+
+
+# 提示用户输入alist密码
+read -p "请输入alist admin的密码: " PWD
+docker exec -it alist ./alist admin set $PWD
