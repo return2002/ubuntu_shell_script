@@ -7,3 +7,9 @@
 
 ```shell
 wget -N --no-check-certificate https://raw.githubusercontent.com/return2002/ubuntu_shell_script/main/ubuntu_script.sh && chmod +x ubuntu_script.sh && ./ubuntu_script.sh
+```
+
+使用docker compose 安装 alist 并设置admin密码
+```shell
+wget -N --no-check-certificate https://raw.githubusercontent.com/return2002/ubuntu_shell_script/main/docker_compose_alist.sh && chmod +x docker_compose_alist.sh && ./docker_compose_alist.sh
+```
