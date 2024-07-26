@@ -17,5 +17,5 @@ wget -N --no-check-certificate https://raw.githubusercontent.com/return2002/ubun
 
 使用docker compose 安装 jupyter 并设置login密码
 ```shell
-wget -N --no-check-certificate https://raw.githubusercontent.com/return2002/ubuntu_shell_script/main/docker_compose_jupyter.sh && chmod +x docker_compose_jupyter.sh && ./docker_jupyter_alist.sh
+wget -N --no-check-certificate https://raw.githubusercontent.com/return2002/ubuntu_shell_script/main/docker_compose_jupyter.sh && chmod +x docker_compose_jupyter.sh && ./docker_compose_jupyter.sh
 ```
