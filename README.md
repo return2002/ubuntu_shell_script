@@ -19,3 +19,15 @@ wget -N --no-check-certificate https://raw.githubusercontent.com/return2002/ubun
 ```shell
 wget -N --no-check-certificate https://raw.githubusercontent.com/return2002/ubuntu_shell_script/main/docker_compose_jupyter.sh && chmod +x docker_compose_jupyter.sh && ./docker_compose_jupyter.sh
 ```
+
+
+tencent使用docker compose 安装 alist 并设置admin密码
+```shell
+wget -N --no-check-certificate https://raw.githubusercontent.com/return2002/ubuntu_shell_script/main/tencent_alist.sh && chmod +x docker_compose_alist.sh && ./tencent_alist.sh
+```
+
+
+tencent使用docker compose 安装 jupyter 并设置login密码
+```shell
+wget -N --no-check-certificate https://raw.githubusercontent.com/return2002/ubuntu_shell_script/main/tencent_jupyter.sh && chmod +x docker_compose_jupyter.sh && ./tencent_jupyter.sh
+```
