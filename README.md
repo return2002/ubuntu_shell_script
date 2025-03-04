@@ -21,13 +21,7 @@ wget -N --no-check-certificate https://raw.githubusercontent.com/return2002/ubun
 ```
 
 
-tencent使用docker compose 安装 alist 并设置admin密码
+tencent使用docker compose 安装 chattts
 ```shell
-wget -N --no-check-certificate https://raw.githubusercontent.com/return2002/ubuntu_shell_script/main/tencent_alist.sh && chmod +x tencent_alist.sh && ./tencent_alist.sh
-```
-
-
-tencent使用docker compose 安装 jupyter 并设置login密码
-```shell
-wget -N --no-check-certificate https://raw.githubusercontent.com/return2002/ubuntu_shell_script/main/tencent_jupyter.sh && chmod +x tencent_jupyter.sh && ./tencent_jupyter.sh
+wget -N --no-check-certificate https://raw.githubusercontent.com/return2002/ubuntu_shell_script/main/chattts.sh && chmod +x chattts.sh && ./chattts.sh
 ```
