@@ -1,10 +1,6 @@
 #!/bin/bash
 
-# 创建目录
-mkdir -p /home/return2002
-
-# 进入目录
-cd /home/return2002
+cd /
 
 # 克隆 GitHub 仓库到 chat-tts-ui 目录
 git clone https://github.com/jianchang512/ChatTTS-ui.git app
